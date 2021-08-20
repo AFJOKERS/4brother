@@ -2,7 +2,7 @@
 
 print("Loading...")
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Xenon Hub Cracked";
+    Title = "4Brothers Community";
     Text = "Loading...",
     Duration = 5
 }) 
@@ -1137,7 +1137,7 @@ end
 
     Player.CharacterAdded:Wait()
 
-    local UI = library.Create("Xenon Cracked", "Your Bizarre Adventure")
+    local UI = library.Create("4Brothers Community", "Your Bizarre Adventure")
     local Credits = UI:Tab("Credits & Info", 6026568227)
     local ItemFarmTab = UI:Tab("ItemFarm", 6031265970)
     local MiscTab = UI:Tab("Misc", 6022668951)
@@ -1993,7 +1993,7 @@ end
     Credits:Button("Copy Discord", "Copy the discord link to clipboard.", function()
         setclipboard("https://discord.gg/4brother")
         game.StarterGui:SetCore("SendNotification", {
-            Title = "script";
+            Title = "My Discord Server";
             Text = "Set to clipboard.",
             Duration = 3
         })
@@ -2008,7 +2008,7 @@ end
     )
 
     Credits:Label(
-        "Version: Cracked"
+        "Version: 1.0"
     )
 
     Credits:Label(
