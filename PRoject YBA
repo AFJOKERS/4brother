@@ -1244,7 +1244,7 @@ end
 
     local CollectDelay, CallbackDelay = 0, 0
 
-    ItemFarmTab:Label("no bad words")
+    ItemFarmTab:Label("discord.gg/4brother")
 
     ItemFarmTab:Seperator()
 
